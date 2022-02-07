@@ -78,12 +78,9 @@ describe('devolverString(str)', function() {
   });
 });
 
-describe('suma(x, y)', function() {
-  it('Deberia devolver la suma de los dos argumentos', function() {
-    expect(suma(5, 5)).toBe(10);
-    expect(suma(-1, 5)).toBe(4);
-  });
-});
+function suma( x, y){
+  return x + y;
+}
 
 describe('resta(x, y)', function() {
   it('Deberia devolver la diferencia de los dos argumentos', function() {
